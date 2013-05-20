@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<mosinstall type="module">
+	<name>SmileTAG Shoutbox</name>
+	<author>Yuniar Setiawan</author>
+	<creationDate>January 2006</creationDate>
+	<copyright>(C) 2005 - 2006 smiletag.com</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>yuniarsetiawan@smiletag.com</authorEmail>
+	<authorUrl>http://www.smiletag.com</authorUrl>
+	<version>2.3</version>
+	<description>The beauty of shoutbox.</description>
+	<files>
+		<filename module="mod_smiletag_shoutbox">mod_smiletag_shoutbox.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/.htaccess</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/backend.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/post.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/smiletag-script.js</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/smiletag-style.css</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/template.html</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/view.php</filename>
+		
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/admin.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/adminProcess.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/checkSession.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/localMessage.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/showBadwords.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/showBan.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/showConfiguration.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/showEditMessage.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/showEditMessageModeration.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/showMessage.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/showMessageModeration.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/showSmilies.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/smiletag-admin.css</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/smiletag-admin.js</filename>
+		
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/images/badwords.png</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/images/ban.png</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/images/config.png</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/images/info.png</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/images/login.png</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/images/messages.png</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/images/moderation.png</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/admin/images/smilies.png</filename>
+		
+		<filename module="mod_smiletag_shoutbox">smiletag/config/path-config.xml</filename>
+		
+		<filename module="mod_smiletag_shoutbox">smiletag/data/badword.xml</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/data/ban-list.xml</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/data/messages-moderated.xml</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/data/messages.xml</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/data/smiletag-config.xml</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/data/smiley-config.xml</filename>
+		
+		<filename module="mod_smiletag_shoutbox">smiletag/images/avatar.gif</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/images/avatar2.gif</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/images/comment_footer.gif</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/images/comment_header.gif</filename>
+		
+		<filename module="mod_smiletag_shoutbox">smiletag/images/smilies/blah.gif</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/images/smilies/drool.gif</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/images/smilies/laugh.gif</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/images/smilies/mad.gif</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/images/smilies/sad.gif</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/images/smilies/shock.gif</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/images/smilies/smile.gif</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/images/smilies/tongue.gif</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/images/smilies/wink.gif</filename>
+		
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/St_AdminManager.class.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/St_ConfigManager.class.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/St_FileDao.class.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/St_InputProcessor.class.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/St_PersistenceManager.class.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/St_PostManager.class.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/St_RuleProcessor.class.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/St_TemplateParser.class.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/St_ViewManager.class.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/St_XmlParser.class.php</filename>
+		
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/domit/xml_domit_cache.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/domit/xml_domit_doctor.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/domit/xml_domit_getelementsbypath.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/domit/xml_domit_lite_include.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/domit/xml_domit_lite_parser.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/domit/xml_domit_nodemaps.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/domit/xml_domit_shared.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/domit/xml_domit_utilities.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/domit/xml_saxy_lite_parser.php</filename>
+		<filename module="mod_smiletag_shoutbox">smiletag/lib/domit/xml_saxy_shared.php</filename>
+	</files>
+</mosinstall>

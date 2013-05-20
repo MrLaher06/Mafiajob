@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0" type="template">
+    <name>rt_dimensions</name>
+    <version>1.0.4</version>
+    <creationDate>11/01/07</creationDate>
+    <author>rhuk</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>Copyright 2006-2008 - RocketTheme.com</copyright>
+    <license>Proprietary - RTTC Club members only</license>
+    <description>
+			<![CDATA[
+			<h1>RocketTheme Dimensions</h1>
+
+			<img src="../templates/rt_dimensions/template_thumbnail.png" align="left" hspace="10" />Dimensions is the new November 2007 template from RocketTheme. It is not free or public.  This template is for members of the RocketTheme Joomla Template Club only.  For installation help check out the 'Dimensions' Overview Page on the <a href="http://www.rockettheme.com/blogcategory/Template_Club/">RocketTheme Template Club</a> home page.
+
+			<h3>Changelog</h3>
+			
+			<b>1.0.4</b><br />
+			<ul>
+			<li>Fixed IE6 z-order bug with dropdown going behind content titles</li>
+			</ul>
+
+			<b>1.0.3</b><br />
+			<ul>
+			<li>Fixed IE6 z-order bug with dropdown going behind content titles</li>
+			</ul>
+			
+			<b>1.0.2</b><br />
+			<ul>
+			<li>Fixed rokzoom</li>
+			</ul>
+			
+			<b>1.0.1</b><br />
+			<ul>
+			<li>Fixed a nasty bug with the menu for Opera9</li>
+			</ul>
+			
+			<b>1.0.0</b><br />
+			<ul>
+			<li>Initial Release</li>
+			</ul>
+
+			]]>  	
+    </description>
+		<files>
+			<filename>css/blank.gif</filename>
+			<filename>css/editor_content.css</filename>
+			<filename>css/iepngfix.htc</filename>
+			<filename>css/index.html</filename>
+			<filename>css/rokmoomenu.css</filename>
+			<filename>css/rokslidestrip.css</filename>
+			<filename>css/style1.css</filename>
+			<filename>css/style10.css</filename>
+			<filename>css/style11.css</filename>
+			<filename>css/style12.css</filename>
+			<filename>css/style13.css</filename>
+			<filename>css/style14.css</filename>
+			<filename>css/style15.css</filename>
+			<filename>css/style16.css</filename>
+			<filename>css/style17.css</filename>
+			<filename>css/style18.css</filename>
+			<filename>css/style19.css</filename>
+			<filename>css/style2.css</filename>
+			<filename>css/style20.css</filename>
+			<filename>css/style3.css</filename>
+			<filename>css/style4.css</filename>
+			<filename>css/style5.css</filename>
+			<filename>css/style6.css</filename>
+			<filename>css/style7.css</filename>
+			<filename>css/style8.css</filename>
+			<filename>css/style9.css</filename>
+			<filename>css/template_css.css</filename>
+			<filename>css/template_ie6.php</filename>
+			<filename>css/template_ie7.css</filename>
+			<filename>images/accent-bottom-left.png</filename>
+			<filename>images/accent-bottom-right.png</filename>
+			<filename>images/accent-top-left.png</filename>
+			<filename>images/accent-top-right.png</filename>
+			<filename>images/arrow-hilite1.png</filename>
+			<filename>images/arrow-main.png</filename>
+			<filename>images/arrow.png</filename>
+			<filename>images/backgrounds/bg-bottom.jpg</filename>
+			<filename>images/backgrounds/city-top-dawn.jpg</filename>
+			<filename>images/backgrounds/city-top-day.jpg</filename>
+			<filename>images/backgrounds/city-top-dusk.jpg</filename>
+			<filename>images/backgrounds/city-top-night.jpg</filename>
+			<filename>images/backgrounds/field-top-dawn.jpg</filename>
+			<filename>images/backgrounds/field-top-day.jpg</filename>
+			<filename>images/backgrounds/field-top-dusk.jpg</filename>
+			<filename>images/backgrounds/field-top-night.jpg</filename>
+			<filename>images/backgrounds/texture-1.jpg</filename>
+			<filename>images/backgrounds/texture-10.jpg</filename>
+			<filename>images/backgrounds/texture-11.jpg</filename>
+			<filename>images/backgrounds/texture-12.jpg</filename>
+			<filename>images/backgrounds/texture-13.jpg</filename>
+			<filename>images/backgrounds/texture-14.jpg</filename>
+			<filename>images/backgrounds/texture-15.jpg</filename>
+			<filename>images/backgrounds/texture-16.jpg</filename>
+			<filename>images/backgrounds/texture-17.jpg</filename>
+			<filename>images/backgrounds/texture-18.jpg</filename>
+			<filename>images/backgrounds/texture-2.jpg</filename>
+			<filename>images/backgrounds/texture-3.jpg</filename>
+			<filename>images/backgrounds/texture-4.jpg</filename>
+			<filename>images/backgrounds/texture-5.jpg</filename>
+			<filename>images/backgrounds/texture-5b.jpg</filename>
+			<filename>images/backgrounds/texture-6.jpg</filename>
+			<filename>images/backgrounds/texture-7.jpg</filename>
+			<filename>images/backgrounds/texture-8.jpg</filename>
+			<filename>images/backgrounds/texture-9.jpg</filename>
+			<filename>images/blank.gif</filename>
+			<filename>images/body-bg.png</filename>
+			<filename>images/bottom-bg-overlay.png</filename>
+			<filename>images/bottom-bg.png</filename>
+			<filename>images/bullet-hilite1.png</filename>
+			<filename>images/bullet-small-hilite1.png</filename>
+			<filename>images/bullet-small.png</filename>
+			<filename>images/bullet.png</filename>
+			<filename>images/column-shadow-left.png</filename>
+			<filename>images/column-shadow-middle.png</filename>
+			<filename>images/column-shadow-right.png</filename>
+			<filename>images/column-shadow.png</filename>
+			<filename>images/content-icon.png</filename>
+			<filename>images/dropdown-child.png</filename>
+			<filename>images/emailButton.png</filename>
+			<filename>images/footer-shadow.png</filename>
+			<filename>images/header-bg.png</filename>
+			<filename>images/header-shadow.png</filename>
+			<filename>images/indent1.png</filename>
+			<filename>images/indent2.png</filename>
+			<filename>images/indent3.png</filename>
+			<filename>images/indent4.png</filename>
+			<filename>images/index.html</filename>
+			<filename>images/logo.png</filename>
+			<filename>images/main-shadow-left.png</filename>
+			<filename>images/main-shadow-right.png</filename>
+			<filename>images/menu-accent.png</filename>
+			<filename>images/menu-active-l.png</filename>
+			<filename>images/menu-active-r.png</filename>
+			<filename>images/menu-bg.png</filename>
+			<filename>images/path-arrow.png</filename>
+			<filename>images/pdf_button.png</filename>
+			<filename>images/plus-hilite1.png</filename>
+			<filename>images/plus.png</filename>
+			<filename>images/printButton.png</filename>
+			<filename>images/rating_star.png</filename>
+			<filename>images/rating_star_blank.png</filename>
+			<filename>images/readon-hilite1.png</filename>
+			<filename>images/readon.png</filename>
+			<filename>images/rocket.png</filename>
+			<filename>images/search-bg.png</filename>
+			<filename>images/status-alert.png</filename>
+			<filename>images/status-download.png</filename>
+			<filename>images/status-info.png</filename>
+			<filename>images/status-note.png</filename>
+			<filename>images/tab-active-l.png</filename>
+			<filename>images/tab-active-r.png</filename>
+			<filename>images/tab-l.png</filename>
+			<filename>images/tab-r.png</filename>
+			<filename>images/tabs-next.png</filename>
+			<filename>images/tabs-prev.png</filename>
+			<filename>images/top-bg-overlay.png</filename>
+			<filename>images/triangle-hilite1.png</filename>
+			<filename>images/triangle.png</filename>
+			<filename>index.php</filename>
+			<filename>js/ie_suckerfish.js</filename>
+			<filename>js/index.html</filename>
+			<filename>js/mootools-release-1.11.js</filename>
+			<filename>js/mootools.bgiframe.js</filename>
+			<filename>js/rokmoomenu.js</filename>
+			<filename>js/rokslidestrip.js</filename>
+			<filename>js/roktempus.js</filename>
+			<filename>rokzoom/images/blank.png</filename>
+			<filename>rokzoom/images/closelabel.gif</filename>
+			<filename>rokzoom/images/loading.gif</filename>
+			<filename>rokzoom/images/nextlabel.gif</filename>
+			<filename>rokzoom/images/prevlabel.gif</filename>
+			<filename>rokzoom/images/spacer.gif</filename>
+			<filename>rokzoom/images/zoom-shadow1.png</filename>
+			<filename>rokzoom/images/zoom-shadow2.png</filename>
+			<filename>rokzoom/images/zoom-shadow3.png</filename>
+			<filename>rokzoom/images/zoom-shadow4.png</filename>
+			<filename>rokzoom/images/zoom-shadow5.png</filename>
+			<filename>rokzoom/images/zoom-shadow6.png</filename>
+			<filename>rokzoom/images/zoom-shadow7.png</filename>
+			<filename>rokzoom/images/zoom-shadow8.png</filename>
+			<filename>rokzoom/index.html</filename>
+			<filename>rokzoom/rokzoom.css</filename>
+			<filename>rokzoom/rokzoom.js</filename>
+			<filename>rt_moomenu.php</filename>
+			<filename>rt_splitmenu.php</filename>
+			<filename>rt_styleloader.php</filename>
+			<filename>rt_styleswitcher.php</filename>
+			<filename>rt_tabmodules.php</filename>
+			<filename>rt_utils.php</filename>
+			<filename>template_thumbnail.png</filename>
+			<filename>templateDetails.xml</filename>
+		</files>
+    <params/>
+</mosinstall>

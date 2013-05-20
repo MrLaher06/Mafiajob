@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module">
+	<name>Statistiques</name>
+	<author>Joomla! Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Ce module affiche des informations sur le nombre de liens par menu.</description>
+	<files>
+		<filename module="mod_stats">mod_stats.php</filename>
+	</files>
+	<params/>
+</mosinstall>

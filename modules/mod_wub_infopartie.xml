@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>Moyenne de Mafiajob</name>
+	<author>Wubart</author>
+	<creationDate>2008</creationDate>
+	<copyright>(C) 2008 Wubart.</copyright>
+	<license>Wubart</license>
+	<authorEmail>contact@mafiajob.fr</authorEmail>
+	<authorUrl>www.mafiajob.fr</authorUrl>
+	<version>5.0.1</version>
+	<description>Ce module permet de connaitre les moyennes du jeu mafiajob</description>
+	<files>
+		<filename module="mod_wub_moyenne">mod_wub_moyenne.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Suffixe CSS de module" description="Un suffixe à appliquer à la classe CSS du module (table.moduletable). Cela permet une mise en page individualisée." />
+	</params>
+</mosinstall>

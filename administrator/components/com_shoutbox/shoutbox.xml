@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+ <mosinstall type="component">
+  <name>Chat</name>
+	<author>Mafiajob</author>
+	<creationDate>2007</creationDate>
+	<copyright>(C) 2007 Open Source. Tous droits réservés.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>contact@mafiajob.fr</authorEmail>
+	<authorUrl>www.mafiajob.fr</authorUrl>
+	<version>3.0.0</version>
+  <description></description>
+  <files>
+   <filename>shoutbox.class.php</filename>
+   <filename>smilies/icon_arrow.gif</filename>
+   <filename>smilies/icon_biggrin.gif</filename>
+   <filename>smilies/icon_confused.gif</filename>
+   <filename>smilies/icon_cool.gif</filename>
+   <filename>smilies/icon_cry.gif</filename>
+   <filename>smilies/icon_eek.gif</filename>
+   <filename>smilies/icon_evil.gif</filename>
+   <filename>smilies/icon_exclaim.gif</filename>
+   <filename>smilies/icon_idea.gif</filename>
+   <filename>smilies/icon_lol.gif</filename>
+   <filename>smilies/icon_mad.gif</filename>
+   <filename>smilies/icon_mrgreen.gif</filename>
+   <filename>smilies/icon_neutral.gif</filename>
+   <filename>smilies/icon_question.gif</filename>
+   <filename>smilies/icon_razz.gif</filename>
+   <filename>smilies/icon_redface.gif</filename>
+   <filename>smilies/icon_rolleyes.gif</filename>
+   <filename>smilies/icon_sad.gif</filename>
+   <filename>smilies/icon_smile.gif</filename>
+   <filename>smilies/icon_surprised.gif</filename>
+   <filename>smilies/icon_twisted.gif</filename>
+   <filename>smilies/icon_wink.gif</filename>
+   <filename>languages/english.php</filename>
+   <filename>languages/dutch.php</filename>
+  </files>
+  <install>
+   <queries>
+	<query>
+	 DROP TABLE IF EXISTS `#__liveshoutbox`
+	</query>
+    <query>     CREATE TABLE `#__liveshoutbox` (
+		     id mediumint(7) NOT NULL AUTO_INCREMENT,
+		     time bigint(11) DEFAULT '0' NOT NULL,
+		     name tinytext NOT NULL,
+		     text text NOT NULL,
+		     url text NOT NULL,
+		     UNIQUE KEY id (id))
+    </query>
+    <query>
+		INSERT INTO #__liveshoutbox (time,name,text) VALUES ('1124405579','Risp','Welcome to the shoutbox')
+      </query>	  
+   </queries>
+  </install>
+  <uninstall>
+   <queries>
+    <query>
+     DROP TABLE `#__liveshoutbox`
+   </query>
+   </queries>
+  </uninstall>
+  <installfile>install.shoutbox.php</installfile>
+  <uninstallfile>uninstall.shoutbox.php</uninstallfile>
+  <administration>
+   <menu>Shoutbox</menu>
+   <submenu>
+    <menu act="all">ShoutBox Items</menu>
+    <menu link="option=com_shoutbox&amp;task=settings">ShoutBox Settings</menu>
+   </submenu>
+   <files>
+    <filename>admin.shoutbox.php</filename>
+    <filename>install.shoutbox.php</filename>
+    <filename>uninstall.shoutbox.php</filename>
+	<filename>admin.shoutbox.html.php</filename>
+	<filename>shoutbox.class.php</filename>
+	<filename>toolbar.shoutbox.php</filename>
+	<filename>toolbar.shoutbox.html.php</filename>
+	<filename>shoutbox.cfg.php</filename>
+   </files>
+  </administration>
+ </mosinstall>

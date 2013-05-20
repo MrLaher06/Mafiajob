@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>Information joueur Mafiajob</name>
+	<author>Wubart</author>
+	<creationDate>2008</creationDate>
+	<copyright>(C) 2008 Open Source. Tous droits réservés.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>contact@mafiajob.fr</authorEmail>
+	<authorUrl>www.mafiajob.fr</authorUrl>
+	<version>1.0.0</version>
+	<description>Ce module permet de connaitre les information du joueur sur mafiajob</description>
+	<files>
+		<filename module="mod_wub_joueur">mod_wub_joueur.php</filename>
+	</files>
+</mosinstall>

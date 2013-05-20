@@ -1,0 +1,12 @@
+div.wrapper {
+margin: 0 auto; width: 950px;padding:0;
+}
+td.secondcol {
+width: 25%;
+}
+td.thirdcol {
+width: 0;
+}
+.shadow-3 {
+width: 632px;
+}

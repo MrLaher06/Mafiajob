@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component" version="4.5.2">
+	<name>Mafiajob</name>
+	<author>Wubart</author>
+	<creationDate>2008</creationDate>
+	<copyright>(C) 2008 Open Source. Tous droits réservés.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>contact@mafiajob.fr</authorEmail>
+	<authorUrl>www.mafiajob.fr</authorUrl>
+	<version>3.0.0</version>
+	<description>Un jeu en php sur la mafia</description>
+	<params>
+	</params>
+</mosinstall>

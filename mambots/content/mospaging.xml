@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0.0" type="mambot" group="content">
+	<name>mospaging</name>
+	<author>Joomla! Project</author>
+	<creationDate>August 2004</creationDate>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>admin@joomla.org</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>1.0.0</version>
+	<description>Ajoute une table des matières à un article paginé. Syntaxe: {mospagebreak} or {mospagebreak title=Titre de la page} or {mospagebreak heading=Premiere page} or {mospagebreak title=Titre de la page&amp;heading=Premiere page} or {mospagebreak heading=Premiere page&amp;title=Titre de la page}</description>
+	<files>
+		<filename mambot="mospaging">mospaging.php</filename>
+	</files>
+	<params>
+		<param name="title" type="radio" default="1" label="Nom du site" description="attributs titre et en-tête du mambot ajouté au tag Nom du site">
+			<option value="0">Non</option>
+			<option value="1">Oui</option>
+		</param>
+	</params>
+</mosinstall>

@@ -1,0 +1,374 @@
+/**
+* @version $Id: batiment.mafiajob.css,v 1 24/02/2008 16:00:00 akede Exp $
+* @package Mafiajob
+* @copyright (C) 2008 Alban PASQUELIN
+* @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+* Mafiajob is Free Software
+* Site web : http://www.mafiajob.fr
+* E-mail : contact@mafiajob.fr
+*/
+
+div.wrapper {
+	margin: 0 auto; width: 950px;padding:0;
+}
+td.secondcol {
+	width: 25%;
+}
+td.thirdcol {
+	width: 0;
+}
+.shadow-3 {
+	width: 632px;
+}
+
+.buttonMaf{
+	border:1px solid #999999;
+	color:#990000;
+}
+
+.Maful{
+	margin:0;
+	padding:0;
+}
+
+.blockEquipe{
+	padding:5px;
+	text-align:center;
+	color:#000000;
+	font-weight:bold;
+	margin-top:10px;
+}
+
+blockquote{
+	padding:10px;
+	margin:3px;
+	font-size:12px;
+	text-align:justify;
+	border:1px solid #222222;
+}
+
+h2
+{
+	margin:0;
+}
+
+.imgBlock{
+	border:1px solid #333333;
+	padding:5px;
+	max-height:100px;
+	max-width:100px;
+	margin:10px;
+}
+
+.imgBlock2{
+	border:1px solid #333333;
+	padding:5px;
+	max-height:100px;
+	max-width:100px;
+	margin:10px;
+	background-image:url(../../../modules/mod_wub_images/fondAvatar.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.imgBlock2{
+	border:1px solid #333333;
+	padding:5px;
+	max-width:100px;
+	margin:10px;
+}
+
+.imagebulle{
+	border:1px solid #990000;
+	background-color:#FFFFFF;
+	padding:2px;
+	margin:10px;
+}
+
+li{
+	list-style:none;
+}
+
+.table_black_border{
+	border-style:solid; 
+	border-width:1px; 
+	border-color:#000000;
+}
+
+.CarteTdMini{
+	border:1px dashed #E6E6E6;
+	color: #990000;
+	background-color:#F9F7F4;
+}
+
+.CarteTr{
+	height:60px;
+}
+
+.CarteTd1{
+}
+
+.CarteTd2{
+	background-image:url(../images/map/noir.png);
+}
+
+.CarteTd3{
+	background-color:#006600;
+}
+
+.CarteTdVoir{
+	background-color:#C7C7C7;
+}
+
+.CarteDiv{
+	display:block;
+	width:60px;
+	height:48px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.CarteJoueur{
+	width: 60px; 
+	height: 60px; 
+	position: absolute;
+	text-align:center;
+}
+
+.ImgBlocCarteJoueur{
+	width:46px;
+	height:46px;
+	display:block;
+	border:1px solid #999999;
+	background-color:#cacbcd; /*ici*/
+	background-image:url(../images/fondAvatar.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.imageobtaclecarte1{
+	width:48px;
+	height:48px;
+	border:1px solid #006600;
+	background-color:#586457;
+}
+
+.alerteCarte{
+	position:absolute;
+	display:block;
+	z-index:5;
+	padding:0;
+	margin-top:-5px;
+	margin-left:-5px;
+}
+
+.PhotoBotCarteBulle{
+	height:50px;
+	margin:5px;
+	border:1px solid #999999;
+	padding:2px;
+	background-color:#cacbcd; /*ici*/
+	background-image:url(../images/fondAvatar.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.TableauInfoJoueurCarte{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.CarteTable{
+	cursor:pointer;
+	margin-top:15px;
+}
+
+.BlocCarteVert{
+	width:48px;
+	height:48px;
+	display:block;
+	border:1px solid #006600;
+	background-image:url(../images/map/vert.png);
+}
+
+.BlocCarteVert:hover{
+	width:48px;
+	height:48px;
+	display:block;
+	border:1px solid #FF9900;
+	background-image:url(../images/map/jaune.png);
+}
+
+.BlocCarteRouge{
+	width:48px;
+	height:48px;
+	display:block;
+	border:1px solid #990000;
+	background-image:url(../images/map/rouge.png);
+	cursor:default;
+}
+
+.ImgBlocCarte{
+	width:46px;
+	height:46px;
+	border:1px solid #999999;
+	background-color:#cacbcd;
+	background-image:url(../images/fondAvatar.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+
+.ImgBlocCarteBatiment{
+	width:46px;
+	height:46px;
+	border:1px solid #999999;
+	background-color:#cacbcd;
+	background-image:url(../images/fondAvatar.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	opacity: 0.5;
+}
+
+.conteneurGraphique
+{
+	width:140px;
+	display:block;
+	border:1px solid #333333;
+	height:8px;
+	background-color:#990000;
+	background-image:url(../../../modules/mod_wub_images/rouge.png);
+	margin-bottom:5px;
+}
+
+.contenuGraphique
+{
+	background-color:#006600;
+	background-image:url(../../../modules/mod_wub_images/vert.png);
+	height:8px;
+}
+
+#chatoutput{
+	height:417px;
+	margin-bottom:10px;
+	overflow:auto;
+	padding:10px;
+	background-color:#F0F0F0;
+	border:1px solid #999999;
+}
+
+#shoutbox{
+	background-color:#222222;
+	border:1px solid #999999;
+	padding:5px;
+	color:#333333;
+	margin-right:10px;
+}
+
+#shoutbox .inputbox{
+	border:1px solid #666666;
+	background-color:#FFFFFF;
+	font-size:10px;
+}
+
+#shoutbox .button{
+	border:1px solid #666666;
+	background-color:#FFFFFF;
+	color: #990000;
+	font-size:10px;
+}
+
+#shoutbox li{
+	list-style:none;
+}
+
+#shoutbox ul{
+	padding:0;
+	margin:0;
+}
+
+.piedcarte{
+	color:#CC0000;
+	width:100%;
+	text-align:center;
+	margin-top:7px;
+	font-size:14px;
+}
+
+.compteur{
+	border:0px;
+	background-color:#000000;
+	color:#CC0000;
+	font-size:14px;
+	text-align:center;
+}
+
+.name{
+	color:#990000;
+	font-weight:bold;
+}
+
+.BatimentAchat{
+	width:100%;
+	text-align:right;
+}
+
+h3{
+	padding:0;
+	margin:0;
+	margin-bottom:5px;
+}
+
+.imgBlockInfobulle{
+	border:1px solid #333333;
+	padding:5px;
+	background-color:#FFFFFF;
+	margin:5px;
+	max-height:100px;
+	max-width:60px;
+}
+
+.CarteTableMini td {
+	width:15px;
+	height:15px;
+	cursor:pointer;
+}
+
+.transparence{
+	opacity: 0.3;
+}
+
+.CarteTableMini{
+	background-color:#F3F3F3;
+	background-image:url(../images/carte.jpg);
+	width:390px;
+	height:390px;
+}
+
+.tdlegende{
+	border:1px solid #999999;
+}
+
+.position{
+	color:#FFFF00;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.miniavatarEquipe{
+	float:left;
+	padding:5px 5px 2px 5px;
+	margin:3px;
+	color:#cccccc;
+	border:1px solid #666666;
+	background-color:#000000;
+	cursor:pointer;
+}
+
+.CarteDivBatiment{
+position:absolute;
+}
